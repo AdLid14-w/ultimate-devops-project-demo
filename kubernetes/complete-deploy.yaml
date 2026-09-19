@@ -895,7 +895,7 @@ spec:
           ports:
             
             - containerPort: 4000
-              name: service
+              name: flagd-ui
           env:
             - name: OTEL_SERVICE_NAME
               valueFrom:
